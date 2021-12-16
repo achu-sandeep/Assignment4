@@ -1,0 +1,99 @@
+/*
+Author:Archana P Nair;
+Date  :16/12/2021;
+
+*/
+
+
+
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url("../img/back.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*navigation start*/
+.menu-container{
+	background-color: #000;
+	padding: 20px;
+}
+.menu-container ul{
+	list-style: none;
+	text-align: center;
+}
+.menu-container ul li{
+	display: inline-flex;
+	padding: 15px;
+	position: relative;
+	border-radius: 10px;
+}
+.menu-container a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 24px;
+
+}
+.submenu{
+	display: none;
+}
+.menu-container ul li:hover{
+	background-color: #f00;
+}
+.menu-container ul li:hover .submenu{
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 50px;
+}
+.submenu ul{
+	background-color: #000;
+	padding: 15px;
+}
+.active{
+	background-color: #f00;
+}
+/*navigation end*/
+/*container start*/
+.row{
+	display: flex;
+}
+.col{
+	background-color: rgba(0,0,0,0.4);
+	width: 30%;
+	margin: 15px;
+	padding: 50px;
+	color: #fff;
+}
+.col h2{
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 15px;
+
+}
+.col p{
+	font-size: 20px;
+	text-align: justify;
+}
+/*container end*/
+/*footer start*/
+footer{
+	background-color: #000;
+	padding: 25px;
+	text-align: center;
+}
+span{color: #fff;
+}
+p{
+	margin: 25px;
+	color: #fff;
+}
+/*footer end*/
+
+
+
+
+
